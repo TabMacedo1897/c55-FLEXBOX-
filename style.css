@@ -1,0 +1,36 @@
+h1 {
+  color: white;
+}
+
+P{color: aqua}
+
+.header{
+  background-color: cadetblue;
+}
+
+.footer{
+  background-color:darksalmon
+}
+
+p,h2{
+  text-align: center;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, rgb(255, 0, 170), yellow);
+  
+}
+
+.item p{
+ 
+  opacity:0;
+}
+
+.item:hover p{
+  opacity: 1;
+}
+
+.item:hover img{
+  opacity: 0.33;
+} 
+
